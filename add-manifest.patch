@@ -1,0 +1,19 @@
+diff -up ./pom.xml.fix ./pom.xml
+--- ./pom.xml.fix	2015-06-17 13:53:28.329374753 -0400
++++ ./pom.xml	2015-06-17 13:54:25.882334422 -0400
+@@ -127,6 +127,15 @@
+       </plugin>
+       <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
++        <artifactId>maven-jar-plugin</artifactId>
++        <configuration>
++          <archive>
++            <manifestFile>MANIFEST.MF</manifestFile>
++          </archive>
++        </configuration>
++      </plugin>
++      <plugin>
++        <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-surefire-plugin</artifactId>
+         <version>2.4.2</version>
+         <configuration>
