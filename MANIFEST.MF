@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: jnr.ffi
+Export-Package: jnr.ffi;version="@VERSION",
+ jnr.ffi.annotations;version="@VERSION",
+ jnr.ffi.byref;version="@VERSION",
+ jnr.ffi.mapper;version="@VERSION",
+ jnr.ffi.provider;version="@VERSION",
+ jnr.ffi.provider.converters;version="@VERSION",
+ jnr.ffi.provider.jffi;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.arm.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.i386.darwin;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.i386.freebsd;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.i386.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.i386.openbsd;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.i386.solaris;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.i386.windows;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.mips.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.mipsel.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.ppc.aix;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.ppc.darwin;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.ppc.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.s390.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.s390x.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.sparc.solaris;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.sparcv9.solaris;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.x86_64.darwin;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.x86_64.freebsd;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.x86_64.linux;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.x86_64.openbsd;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.x86_64.solaris;version="@VERSION",
+ jnr.ffi.provider.jffi.platform.x86_64.windows;version="@VERSION",
+ jnr.ffi.types;version="@VERSION",
+ jnr.ffi.util;version="@VERSION",
+ jnr.ffi.util.ref;version="@VERSION"
+Import-Package: com.kenai.jffi;version="1.2.7",
+ jnr.x86asm;version="1.0.2",
+ org.objectweb.asm;version="4.0.0",
+ org.objectweb.asm.util;version="4.0.0"
+Bundle-Name: Java Abstracted Foreign Function Layer
+Bundle-Version: @VERSION
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Eclipse Orbit
+
